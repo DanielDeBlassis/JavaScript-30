@@ -14,3 +14,15 @@ function reproducir(e){
     }
 }
 
+/**
+ * Remueve la transición al finalizar la reproducción del sonido
+ * @param e evento
+ * @return undefined si el nombre de la propiedad no es transform
+ */
+function removerTransicion(e){
+    if(e.propertyName !== "transform"){
+        return;
+    }
+    this.classList.remove("playing");
+}
+
