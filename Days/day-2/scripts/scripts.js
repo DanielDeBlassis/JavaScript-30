@@ -18,3 +18,6 @@ function establecerHora() {
     const anguloSegundos = (((segundos / 60) * 360) + 90);//Se le suma 90 para corregir el ángulo inicial
     $segundos.style.transform = `rotate(${anguloSegundos}deg)`;
 }
+
+setInterval(establecerHora, 1000);
+
