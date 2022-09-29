@@ -26,3 +26,4 @@ function removerTransicion(e){
     this.classList.remove("playing");
 }
 
+const teclas = document.querySelectorAll(".tecla");
