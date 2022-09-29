@@ -27,3 +27,4 @@ function removerTransicion(e){
 }
 
 const teclas = document.querySelectorAll(".tecla");
+teclas.forEach(tecla => tecla.addEventListener("transitionend", removerTransicion));
