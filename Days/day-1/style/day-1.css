@@ -1,0 +1,62 @@
+body {
+    background: #807f1747;
+}
+
+h1 {
+    font-family: cursive;
+    box-shadow: 3px 3px 3px 4px #ccc;
+    transition: 2s;
+}
+
+h1:hover {
+    box-shadow: 3px 3px 3px 4px rgb(136, 127, 127);
+}
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.contenedor-teclas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.tecla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 85px;
+    height: 100px;
+    padding: 0 0 5px 0;
+
+    border: solid #ccc 5px;
+    border-radius: 20%;
+
+    color: white;
+    background: #a7a71f;
+    transition: all 1s;
+}
+
+.playing{
+    transform: scale(1.05);
+    background-color: #e3e3ba;
+    border: solid rgb(113, 113, 1) 5px;
+    color: rgb(113, 113, 1);
+}
+
+p.letra {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+span.instrumento {
+    font-size: 10px;
+}
