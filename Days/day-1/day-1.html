@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,11 +8,63 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style/day-1.css'>
 </head>
-<body>
-    <h1>Day #1 - JavaScript Drum Kit</h1>
 
+<body>
+    <div class="contenedor-titulo">
+        <h1>Day #1 - JavaScript Drum Kit</h1>
+    </div>
+
+    <div class="contenedor-teclas">
+        <div data-key="a" class="tecla">
+            <p class="letra">A</p>
+            <span class="instrumento">CLAP</span>
+        </div>
+        <div data-key="s" class="tecla">
+            <p class="letra">S</p>
+            <span class="instrumento">HIHAT</span>
+        </div>
+        <div data-key="d" class="tecla">
+            <p class="letra">D</p>
+            <span class="instrumento">KICK</span>
+        </div>
+        <div data-key="f" class="tecla">
+            <p class="letra">F</p>
+            <span class="instrumento">OPENHAT</span>
+        </div>
+        <div data-key="g" class="tecla">
+            <p class="letra">G</p>
+            <span class="instrumento">BOOM</span>
+        </div>
+        <div data-key="h" class="tecla">
+            <p class="letra">H</p>
+            <span class="instrumento">RIDE</span>
+        </div>
+        <div data-key="j" class="tecla">
+            <p class="letra">J</p>
+            <span class="instrumento">SNARE</span>
+        </div>
+        <div data-key="k" class="tecla">
+            <p class="letra">K</p>
+            <span class="instrumento">TOM</span>
+        </div>
+        <div data-key="l" class="tecla">
+            <p class="letra">L</p>
+            <span class="instrumento">TINK</span>
+        </div>
+    </div>
+
+    <audio data-key="a" src="sounds/clap.wav"></audio>
+    <audio data-key="s" src="sounds/hihat.wav"></audio>
+    <audio data-key="d" src="sounds/kick.wav"></audio>
+    <audio data-key="f" src="sounds/openhat.wav"></audio>
+    <audio data-key="g" src="sounds/boom.wav"></audio>
+    <audio data-key="h" src="sounds/ride.wav"></audio>
+    <audio data-key="j" src="sounds/snare.wav"></audio>
+    <audio data-key="k" src="sounds/tom.wav"></audio>
+    <audio data-key="l" src="sounds/tink.wav"></audio>
 
 
     <script src='scripts/day-1.js'></script>
 </body>
+
 </html>
