@@ -1,0 +1,163 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+/* RELOJ */
+.contenedor-reloj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.reloj {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 25px solid #93e2ff;
+    border-radius: 50%;
+    box-shadow: 2px 5px 30px 3px rgba(0,0,0,0.75);
+}
+
+/* CENTRO */
+.centro{
+    position: absolute;
+    right: 46%;
+    top: 46%;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    z-index: 1;
+    box-shadow: 2px 5px 30px 3px rgba(0,0,0,0.75);
+}
+
+/*HORAS*/
+.hora {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hora.uno {
+    position: absolute;
+    top: -2%;
+    right: 25%;
+}
+
+.hora.dos {
+    position: absolute;
+    top: 14%;
+    right: 8%;
+}
+
+.hora.tres {
+    position: absolute;
+    top: 37%;
+    right: 1%;
+}
+
+.hora.cuatro {
+    position: absolute;
+    top: 60%;
+    right: 8%;
+}
+
+.hora.cinco {
+    position: absolute;
+    top: 77%;
+    right: 25%;
+}
+
+.hora.seis {
+    position: absolute;
+    top: 83%;
+    right: 48%;
+}
+
+.hora.siete {
+    position: absolute;
+    top: 77%;
+    left: 25%;
+}
+
+.hora.ocho {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+
+.hora.nueve {
+    position: absolute;
+    top: 37%;
+    left: 1%;
+}
+
+.hora.diez {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+}
+
+.hora.once {
+    position: absolute;
+    top: -2%;
+    left: 25%;
+}
+
+.hora.doce {
+    position: absolute;
+    left: 46%;
+    top: -9%;
+}
+
+.horas p {
+    text-shadow: 2px 2px darkslategrey;
+}
+
+
+/*AGUJAS*/
+.aguja {
+    width: 50%;
+    height: 6px;
+    /* background: blue; */
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+/* SUBAGUJAS */
+.subaguja.horas {
+    float: right;
+    width: 60%;
+    background: black;
+    height: 14px;
+    display: flex;
+    box-shadow: 2px 5px 30px 3px rgba(0,0,0,0.75);
+}
+
+.subaguja.minutos {
+    float: right;
+    width: 80%;
+    background: black;
+    height: 8px;
+    display: flex;
+    box-shadow: 2px 5px 30px 3px rgba(0,0,0,0.75);
+}
+
+.subaguja.segundos {
+    float: right;
+    width: 109%;
+    background: black;
+    height: 5px;
+    transform: translate(50px, 0px);
+    display: flex;
+    box-shadow: 2px 5px 30px 3px rgba(0,0,0,0.75);
+}
+
+
