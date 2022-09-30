@@ -25,7 +25,7 @@ body {
     position: absolute;
     right: 46%;
     top: 46%;
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -139,6 +139,7 @@ body {
     height: 14px;
     display: flex;
     box-shadow: 2px 5px 30px 3px rgba(0, 0, 0, 0.75);
+    border: .2px solid white;
 }
 
 .subaguja.minutos {
@@ -148,6 +149,7 @@ body {
     height: 8px;
     display: flex;
     box-shadow: 2px 5px 30px 3px rgba(0, 0, 0, 0.75);
+    border: .2px solid white;
 }
 
 .subaguja.segundos {
@@ -158,13 +160,14 @@ body {
     transform: translate(50px, 0px);
     display: flex;
     box-shadow: 2px 5px 30px 3px rgba(0, 0, 0, 0.75);
+    border: .2px solid white;
 }
 
 /* ------------- */
 /* MEDIA QUERYS */
 /* ------------- */
 
-/* Pantallas hasta 600px */
+/* Pantallas hasta 900px */
 @media screen and (max-width: 900px) {
 
     /* RELOJ */
@@ -179,10 +182,11 @@ body {
         position: relative;
         width: 300px;
         height: 300px;
-        border: 25px solid #93e2ff;
+        border: 10px solid #93e2ff;
         border-radius: 50%;
         box-shadow: 2px 5px 30px 3px rgb(0 0 0 / 75%);
     }
+
     .centro {
         position: absolute;
         right: 45%;
@@ -198,57 +202,75 @@ body {
         font-size: 25px;
         font-weight: bolder;
     }
-    
+
+    /* SUBAGUJAS */
+    .subaguja.horas {
+        height: 8px;
+        border: .5px solid white;
+    }
+
+    .subaguja.minutos {
+        height: 5px;
+        border: .5px solid white;
+    }
+
+    .subaguja.segundos {
+        height: 2px;
+        border: .2px solid white;
+    }
+
 }
 
 /* Pantallas hasta 350px */
 @media screen and (max-width: 350px) {
-        /* RELOJ */
-        .contenedor-reloj {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10%;
-        }
-    
-        .reloj {
-            position: relative;
-            width: 150px;
-            height: 150px;
-            border: 10px solid #93e2ff;
-            border-radius: 50%;
-            box-shadow: 2px 5px 30px 3px rgb(0 0 0 / 75%);
-        }
-        .centro {
-            position: absolute;
-            right: 43%;
-            top: 45%;
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
-        }
-    
-        /* HORAS */
-        .hora {
-            color: white;
-            font-size: 13px;
-            font-weight: bolder;
-        }
 
-        /* SUBAGUJAS */
-        .subaguja.horas {
-            height: 8px;
-            border: .5px solid white;
-        }
+    /* RELOJ */
+    .contenedor-reloj {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
 
-        .subaguja.minutos {
-            height: 5px;
-            border: .5px solid white;
-        }
+    .reloj {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border: 10px solid #93e2ff;
+        border-radius: 50%;
+        box-shadow: 2px 5px 30px 3px rgb(0 0 0 / 75%);
+    }
 
-        .subaguja.segundos {
-            height: 2px;
-            border: .2px solid white;
-        }
+    .centro {
+        position: absolute;
+        right: 43%;
+        top: 45%;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+    }
+
+    /* HORAS */
+    .hora {
+        color: white;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+    /* SUBAGUJAS */
+    .subaguja.horas {
+        height: 8px;
+        border: .5px solid white;
+    }
+
+    .subaguja.minutos {
+        height: 5px;
+        border: .5px solid white;
+    }
+
+    .subaguja.segundos {
+        height: 2px;
+        border: .2px solid white;
+    }
 }
 
