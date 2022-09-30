@@ -26,6 +26,19 @@ function removerTransicion(e){
     this.classList.remove("playing");
 }
 
+/**
+ * Reproduce el sonido al tocar el botón
+ * @param tecla correspondiente a la tecla que identifica el sonido a reproducir
+ */
+function reproducirToque(tecla){
+    let boton = document.querySelector(`.tecla[data-key="${tecla}"]`);
+    let sonido = document.querySelector(`audio[data-key="${tecla}"]`);
+    
+    sonido.currentTime = 0;
+    sonido.play();
+    boton.classList.add("playing");
+}
+
 const teclas = document.querySelectorAll(".tecla");
 teclas.forEach(tecla => tecla.addEventListener("transitionend", removerTransicion));
 
