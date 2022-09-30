@@ -45,6 +45,10 @@ h1:hover {
     transition: all 1s;
 }
 
+.tecla:hover{
+    cursor: pointer;
+}
+
 .playing{
     transform: scale(1.05);
     background-color: #e3e3ba;
