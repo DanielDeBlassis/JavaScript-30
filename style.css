@@ -1,2 +1,59 @@
 
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232558;
+}
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #232558;
+}
+
+b {
+    color: #ffc600;
+    text-shadow: 4px 3px black;
+}
+
+.contenedor-tabla {
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+
+.titulo {
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 2px 5px black;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: #232558;
+    transition: 1s;
+}
+
+.link:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fdc402;
+}
+
+.titulo-desafio {
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 25% 0 25%;
+    text-align: justify;
+    color: #232558;
+    transition: 1s;
+}
+
+.titulo-desafio:hover {
+    cursor: pointer;
+    color: #fdc402;
+}
 
