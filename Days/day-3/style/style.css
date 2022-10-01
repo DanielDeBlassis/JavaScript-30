@@ -53,7 +53,7 @@ h1{
 }
 
 img#imagen {
-    width: 40%;
+    width: 50%;
     height: auto;
     padding: var(--spacing);
     background: var(--base);
