@@ -156,3 +156,16 @@ function cargarNacidosEn1500() {
     $tabla.innerHTML = ``;
     $tabla.innerHTML = contenido;
 }
+
+/**
+ * Muestra suma total de años vividos
+ */
+function mostrarTotalAnios() {
+    let contenido = ``;
+
+    contenido += `<thead><tr><th>Total</th></tr></thead>
+        <tbody><tr><td>${totalAnios} años</td><tr></tbody>`;
+
+    $tabla.innerHTML = ``;
+    $tabla.innerHTML = contenido;
+}
