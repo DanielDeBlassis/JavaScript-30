@@ -169,3 +169,20 @@ function mostrarTotalAnios() {
     $tabla.innerHTML = ``;
     $tabla.innerHTML = contenido;
 }
+
+/**
+ * Muestra lista de inventores ordenada por años vividos
+ */
+function ordenarPorAniosVividos() {
+    let contenido = ``;
+
+    contenido += `<thead><tr><th>Name</th><th>Lastname</th><th>Year</th><th>Passed</th><th>Image</th></tr></thead>`;
+
+    mayores.forEach(mayor => {
+        contenido += `<tbody><tr><td>${mayor.first}</td><td>${mayor.last}</td><td>${mayor.year}</td><td>${mayor.passed}</td><td><img class="img-inventors" src="${mayor.img}" alt="${mayor.first + " " + mayor.last}"/></td><tr></tbody>`;
+    });
+
+    $tabla.innerHTML = ``;
+    $tabla.innerHTML = contenido;
+}
+
