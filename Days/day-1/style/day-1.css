@@ -1,4 +1,18 @@
 body {
+/*--------- HEADER ----------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #232558;
+    z-index: 100;
+}
+i:hover {
+    color: aqua;
+    transition: 1s;
+}
+/* ------------------------ */
+
     background: #807f1747;
 }
 
