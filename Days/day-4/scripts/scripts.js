@@ -28,6 +28,7 @@ const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.
 //Array.prototype.map()
 //2. Give us an array of the inventory first and las names
 //2. Obtén un array con el primer y segundo nombre de los inventores
+const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
 
 //Array.prototype.sort()
 //3. Sort the inventors by birthdate, oldest to youngest
