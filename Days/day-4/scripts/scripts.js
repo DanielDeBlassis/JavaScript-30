@@ -45,6 +45,12 @@ const totalAnios = inventors.reduce((total, inventor) => {
 
 //5. Sort the inventors by years lived
 //5. Ordena los inventores por años vividos
+const copia = inventors.slice(0);
+const mayores = copia.sort(function (a, b) {
+    const actual = a.passed - a.year;
+    const siguiente = b.passed - b.year;
+    return actual > siguiente ? -1 : 1;
+});
 
 //6. Create a list of boulevards in Paris that contain "de" anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
