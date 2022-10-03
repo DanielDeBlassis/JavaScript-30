@@ -19,3 +19,9 @@ html {
     background: #ccc;
 }
 
+body {
+    font-family: "helvetica neue";
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
