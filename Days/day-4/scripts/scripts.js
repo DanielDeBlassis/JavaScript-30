@@ -64,6 +64,11 @@ const mayores = copia.sort(function (a, b) {
 
 //7. Sort Exercise
 //Sort the people alphabetically by last name
+const ordenAlfabetico = personas.sort((anterior, siguiente) => {
+    const [aAnterior, aSiguiente] = anterior.split(", ");
+    const [bAnterior, bSiguiente] = siguiente.split(", ");
+    return aAnterior > bAnterior ? 1 : -1;
+})
 
 //8. Reduce Exercise
 //Sum up the instances of each of these
