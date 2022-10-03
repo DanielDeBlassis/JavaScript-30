@@ -31,3 +31,9 @@ body {
 *:after {
     box-sizing: inherit;
 }
+
+.panels {
+    min-height: 100vh;
+    overflow: visible;
+    display: flex;
+}
