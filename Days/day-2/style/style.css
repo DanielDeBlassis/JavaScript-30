@@ -57,74 +57,74 @@ body {
 
 .hora.uno {
     position: absolute;
-    top: -2%;
+    top: 4%;
     right: 25%;
 }
 
 .hora.dos {
     position: absolute;
-    top: 14%;
+    top: 21%;
     right: 8%;
 }
 
 .hora.tres {
     position: absolute;
-    top: 37%;
+    top: 44%;
     right: 1%;
 }
 
 .hora.cuatro {
     position: absolute;
-    top: 60%;
+    top: 66%;
     right: 8%;
 }
 
 .hora.cinco {
     position: absolute;
-    top: 77%;
+    top: 81%;
     right: 25%;
 }
 
 .hora.seis {
     position: absolute;
-    top: 83%;
+    top: 87%;
     right: 48%;
 }
 
 .hora.siete {
     position: absolute;
-    top: 77%;
+    top: 81%;
     left: 25%;
 }
 
 .hora.ocho {
     position: absolute;
-    top: 60%;
+    top: 66%;
     left: 8%;
 }
 
 .hora.nueve {
     position: absolute;
-    top: 37%;
+    top: 44%;
     left: 1%;
 }
 
 .hora.diez {
     position: absolute;
-    top: 14%;
-    left: 8%;
+    top: 21%;
+    left: 7%;
 }
 
 .hora.once {
     position: absolute;
-    top: -2%;
-    left: 25%;
+    top: 4%;
+    left: 23%;
 }
 
 .hora.doce {
     position: absolute;
     left: 46%;
-    top: -9%;
+    top: -2%;
 }
 
 .horas p {
