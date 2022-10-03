@@ -13,3 +13,9 @@ i:hover {
 }
 
 /* ------------------------ */
+
+html {
+    box-sizing: border-box;
+    background: #ccc;
+}
+
