@@ -140,3 +140,19 @@ function ordenarInventores() {
     $tabla.innerHTML = ``;
     $tabla.innerHTML = contenido;
 }
+
+/**
+ * Muestra los inventores nacidos en 1500
+ */
+function cargarNacidosEn1500() {
+    let contenido = ``;
+
+    contenido += `<thead><tr><th>Name</th><th>Lastname</th><th>Year</th><th>Passed</th><th>Image</th></tr></thead>`;
+
+    fifteen.forEach(element => {
+        contenido += `<tbody><tr><td>${element.first}</td><td>${element.last}</td><td>${element.year}</td><td>${element.passed}</td><td><img class="img-inventors" src="${element.img}" alt="${element.first + " " + element.last}"/></td><tr></tbody>`;
+    });
+
+    $tabla.innerHTML = ``;
+    $tabla.innerHTML = contenido;
+}
