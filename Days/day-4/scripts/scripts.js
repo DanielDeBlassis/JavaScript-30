@@ -108,3 +108,19 @@ function cargarInventores() {
     $tabla.innerHTML = contenido;
 
 }
+
+/**
+ * Muestra lista solo con los nombres de los inventores
+ */
+function cargarNombres() {
+    let contenido = ``;
+
+    contenido += `<thead><tr><th>Name and Lastname</th></tr></thead>`;
+
+    fullNames.forEach(name => {
+        contenido += `<tbody><tr><td>${name}</td><tr></tbody>`;
+    });
+
+    $tabla.innerHTML = ``;
+    $tabla.innerHTML = contenido;
+}
