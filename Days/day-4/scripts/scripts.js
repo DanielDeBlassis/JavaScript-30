@@ -23,6 +23,7 @@ const personas = ['Chung, Michael', 'Chen, Christopher', 'Melton, Jessica', 'Hil
 //Array.prototype.filter()
 //1. Filter the list of inventors for those who were born in the 1500's
 //1. Filtra la lista de inventores que nacieron en los 1500's
+const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600));
 
 //Array.prototype.map()
 //2. Give us an array of the inventory first and las names
