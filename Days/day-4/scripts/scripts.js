@@ -15,3 +15,39 @@ const inventors = [
 
 
 const personas = ['Chung, Michael', 'Chen, Christopher', 'Melton, Jessica', 'Hill, Matthew', 'Puckett, Ashley', 'Song, Jennifer', 'Hamilton, Joshua', 'Bender, Amanda', 'Wagner, Daniel', 'McLaughlin, David', 'McNamara, James', 'Raynor, Robert', 'Moon, John', 'Woodard, Joseph', 'Desai, Andrew', 'Wallace, Ryan', 'Lawrence, Brandon', 'Griffin, Jason', 'Dougherty, Justin', 'Powers, Sarah', 'May, William', 'Steele, Jonathan', 'Teague, Stephanie', 'Vick, Brian', 'Gallagher, Nicole', 'Solomon, Nicholas', 'Walsh, Anthony', 'Monroe, Heather', 'Connolly, Eric', 'Hawkins, Elizabeth', 'Middleton, Adam', 'Goldstein, Megan', 'Watts, Melissa', 'Johnston, Kevin', 'Weeks, Steven', 'Wilkerson, Thomas', 'Barton, Timothy', 'Walton, Christina', 'Hall, Kyle', 'Ross, Rachel', 'Woods, Laura', 'Mangum, Lauren', 'Joseph, Amber'];
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////EXERCISES////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//Array.prototype.filter()
+//1. Filter the list of inventors for those who were born in the 1500's
+//1. Filtra la lista de inventores que nacieron en los 1500's
+
+//Array.prototype.map()
+//2. Give us an array of the inventory first and las names
+//2. Obtén un array con el primer y segundo nombre de los inventores
+
+//Array.prototype.sort()
+//3. Sort the inventors by birthdate, oldest to youngest
+//3. Ordena a los inventores por fecha de nacimiento, del más viejo al más joven
+
+//Array.prototype.reduce()
+//4. How many years did all the inventors live?
+//4. Cuántos años vivieron todos los inventores?
+//5. Sort the inventors by years lived
+//5. Ordena los inventores por años vividos
+
+//6. Create a list of boulevards in Paris that contain "de" anywhere in the name
+// https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+
+
+//7. Sort Exercise
+//Sort the people alphabetically by last name
+
+//8. Reduce Exercise
+//Sum up the instances of each of these
+//Suma las instancias de cada objeto
+/////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
