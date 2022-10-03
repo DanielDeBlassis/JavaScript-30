@@ -55,11 +55,11 @@ const mayores = copia.sort(function (a, b) {
 //6. Create a list of boulevards in Paris that contain "de" anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
-const categoria = document.querySelector(".mw-category");
-const links = Array.from(categoria.querySelectorAll("a"));
-const de = links
-    .map(link => link.textContent)
-    .filter(nombreCalle => nombreCalle.includes("de"));
+// const categoria = document.querySelector(".mw-category");
+// const links = Array.from(categoria.querySelectorAll("a"));
+// const de = links
+//     .map(link => link.textContent)
+//     .filter(nombreCalle => nombreCalle.includes("de"));
 
 
 //7. Sort Exercise
