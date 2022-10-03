@@ -92,3 +92,19 @@ console.log(transportation);
 
 const $tabla = document.querySelector("#tabla");
 
+/**
+ * Muestra lista de inventores
+ */
+function cargarInventores() {
+
+    let contenido = ``;
+
+    contenido += `<thead><tr><th>Name</th><th>Lastname</th><th>Year</th><th>Passed</th><th>Image</th></tr></thead>`;
+
+    inventors.forEach(inventor => {
+        contenido += `<tbody><tr><td>${inventor.first}</td><td>${inventor.last}</td><td>${inventor.year}</td><td>${inventor.passed}</td><td><img class="img-inventors" src="${inventor.img}" alt="${inventor.first + " " + inventor.last}"/></td><tr></tbody>`;
+    });
+    $tabla.innerHTML = ``;
+    $tabla.innerHTML = contenido;
+
+}
