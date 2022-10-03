@@ -124,3 +124,19 @@ function cargarNombres() {
     $tabla.innerHTML = ``;
     $tabla.innerHTML = contenido;
 }
+
+/**
+ * Muestra los inventores ordenados por fecha de nacimiento
+ */
+function ordenarInventores() {
+    let contenido = ``;
+
+    contenido += `<thead><tr><th>Name</th><th>Lastname</th><th>Year</th><th>Passed</th><th>Image</th></tr></thead>`;
+
+    ordered.forEach(order => {
+        contenido += `<tbody><tr><td>${order.first}</td><td>${order.last}</td><td>${order.year}</td><td>${order.passed}</td><td><img class="img-inventors" src="${order.img}" alt="${order.first + " " + order.last}"/></td><tr></tbody>`;
+    });
+
+    $tabla.innerHTML = ``;
+    $tabla.innerHTML = contenido;
+}
