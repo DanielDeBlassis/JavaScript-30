@@ -13,3 +13,5 @@ const inventors = [
     { first: "Alexander", last: "Graham Bell", year: 1847, passed: 1922, img: "http://drive.google.com/uc?export=view&id=185xEfEBK5HUlNOC0RA_GZLwSQoPoQjJu" }
 ];
 
+
+const personas = ['Chung, Michael', 'Chen, Christopher', 'Melton, Jessica', 'Hill, Matthew', 'Puckett, Ashley', 'Song, Jennifer', 'Hamilton, Joshua', 'Bender, Amanda', 'Wagner, Daniel', 'McLaughlin, David', 'McNamara, James', 'Raynor, Robert', 'Moon, John', 'Woodard, Joseph', 'Desai, Andrew', 'Wallace, Ryan', 'Lawrence, Brandon', 'Griffin, Jason', 'Dougherty, Justin', 'Powers, Sarah', 'May, William', 'Steele, Jonathan', 'Teague, Stephanie', 'Vick, Brian', 'Gallagher, Nicole', 'Solomon, Nicholas', 'Walsh, Anthony', 'Monroe, Heather', 'Connolly, Eric', 'Hawkins, Elizabeth', 'Middleton, Adam', 'Goldstein, Megan', 'Watts, Melissa', 'Johnston, Kevin', 'Weeks, Steven', 'Wilkerson, Thomas', 'Barton, Timothy', 'Walton, Christina', 'Hall, Kyle', 'Ross, Rachel', 'Woods, Laura', 'Mangum, Lauren', 'Joseph, Amber'];
