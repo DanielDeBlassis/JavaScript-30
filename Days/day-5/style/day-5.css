@@ -127,3 +127,15 @@ body {
     color: white;
     text-decoration: none;
 }
+
+/* --------------------------- */
+/*        MEDIA QUERYS         */
+/* --------------------------- */
+
+/* Pantallas hasta 650px */
+@media screen and (max-width: 650px) {
+    .panel {
+        font-size: 10px;
+    }
+}
+
