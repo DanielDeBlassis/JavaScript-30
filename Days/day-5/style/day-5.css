@@ -139,3 +139,10 @@ body {
     }
 }
 
+/* Pantallas hasta 375px */
+@media screen and (max-width: 375px) {
+    .panel {
+        font-size: 5px;
+    }
+}
+
