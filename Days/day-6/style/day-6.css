@@ -32,6 +32,10 @@ input.busqueda {
     border-radius: 10px;
     border: 1px solid #ccc;
 }
+
+input.busqueda:focus-visible {
+    outline: none;
+}
 }
 
 ul.sugerencias {
