@@ -36,3 +36,14 @@ ul.sugerencias {
     padding: 0;
     text-align: center;
 }
+
+li.coincidencia {
+    border: 1px solid #80808054;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px 2px #ccc;
+}
