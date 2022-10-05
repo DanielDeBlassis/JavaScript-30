@@ -63,3 +63,22 @@ span.name {
     font-style: italic;
     display: flex;
 }
+
+
+/* --------------- */
+/*  MEDIA QUERYS   */
+/* --------------- */
+@media screen and (max-width: 650px) {
+    input.busqueda {
+        width: 250px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    span.name {
+        font-size: 1rem;
+        font-weight: 600;
+        font-style: italic;
+        display: flex;
+    }
+}
