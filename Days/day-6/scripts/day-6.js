@@ -5,3 +5,6 @@ let cities = [];
 
 const $searchInput = document.querySelector(".busqueda");
 const $sugerencias = document.querySelector(".sugerencias");
+
+fetch(endpoint).then(blob => blob.json()).then(data => cities.push(...data));
+
