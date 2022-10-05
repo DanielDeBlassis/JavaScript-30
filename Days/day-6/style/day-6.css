@@ -82,3 +82,23 @@ span.name {
         display: flex;
     }
 }
+
+@media screen and (max-width: 400px) {
+    input.busqueda {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    span.name {
+        font-size: 10px;
+        font-weight: 600;
+        font-style: italic;
+        display: flex;
+    }
+
+    span.population {
+        font-size: 10px;
+    }
+}
+
