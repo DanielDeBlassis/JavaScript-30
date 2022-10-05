@@ -17,3 +17,7 @@ i:hover {
 .hl {
     background-color: #ffc600;
 }
+
+li {
+    list-style: none;
+}
