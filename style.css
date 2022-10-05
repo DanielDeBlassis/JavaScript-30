@@ -57,3 +57,32 @@ b {
     color: #fdc402;
 }
 
+
+/* ---------------------- */
+/*      MEDIA QUERYS      */
+/* ---------------------- */
+@media screen and (max-width: 500px) {
+    .titulo-desafio {
+        font-size: 1rem;
+        width: auto;
+        margin: 0;
+    }
+
+    .contenedor-titulo {
+        padding: 10px 0;
+    }
+
+    .titulo {
+        font-size: 16px;
+    }
+
+    #logo {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .contenedor-tabla {
+        width: auto;
+        margin: auto;
+    }
+}
