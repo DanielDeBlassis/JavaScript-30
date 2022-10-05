@@ -36,6 +36,9 @@ input.busqueda {
 input.busqueda:focus-visible {
     outline: none;
 }
+
+input.busqueda:focus {
+    border: 5px solid rgba(37, 150, 190, 0.5);
 }
 
 ul.sugerencias {
