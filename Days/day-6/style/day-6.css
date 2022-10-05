@@ -31,3 +31,8 @@ input.busqueda {
     height: 40px;
     border-radius: 10px;
 }
+
+ul.sugerencias {
+    padding: 0;
+    text-align: center;
+}
