@@ -31,3 +31,28 @@ function findMatches(wordToMatch, cities) {
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
+/**
+ * Muestra las coincidencias encontradas por pantalla
+ */
+function displayMatches() {
+    if (this.value) {
+        const matchArray = findMatches(this.value, cities);
+
+        const listMatch = matchArray.map(place => {
+            const regex = new RegExp(this.value, "gi");
+            const cityName = place.city.replace(regex, `<span class="hl">${this.value}</span>`);
+            const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
+            return `<li class="coincidencia">
+                    <span class="name">${cityName}, ${stateName}</span>
+                    <span class="population"><i class="fas fa-users">&nbsp ${numberWithCommas(place.population)}</i></span>
+                </li>`;
+        }).join("");
+
+        $sugerencias.innerHTML = listMatch;
+    } else {
+        $sugerencias.innerHTML = "";
+    }
+
+}
+
