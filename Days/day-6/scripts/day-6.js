@@ -4,3 +4,4 @@ const endpoint = "https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb
 let cities = [];
 
 const $searchInput = document.querySelector(".busqueda");
+const $sugerencias = document.querySelector(".sugerencias");
