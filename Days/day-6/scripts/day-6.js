@@ -56,3 +56,6 @@ function displayMatches() {
 
 }
 
+
+
+$searchInput.addEventListener("change", displayMatches);
