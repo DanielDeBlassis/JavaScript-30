@@ -22,3 +22,12 @@ function findMatches(wordToMatch, cities) {
         return place.city.match(regex) || place.state.match(regex);
     });
 }
+
+/**
+ * Formatea un número colocándole comas
+ * @param {number} x 
+ * @returns número formateado
+ */
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
